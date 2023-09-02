@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.img{
+    padding-left: 30px;
+    padding-top: -100px;
+}
+.back{
+    height: 620px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(74, 154, 185);
+}
+.text{
+    padding-top: 100px;
+}
+.text p{
+    margin-top: -100px;
+    font-family: 'Arvo', serif;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.4cm;
+    padding-left: 770px;
+    margin-top: -470px;
+    color: rgb(32, 37, 28);
+}
+.text .s{
+    font-size: 1.5cm;
+    color: brown;
+    margin-left: 770px;
+    margin-top: -5px;
+}
+.img h1{
+    margin-left: 50px;
+}
+ 
+.img{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    list-style: none;
+    gap: 40px;
+
+}
+.d{
+    font-size: 1cm;
+    font-family: 'Arvo', serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Signika', sans-serif;
+    margin-left: 300px;
+    color: aliceblue;
+}
+.d .ba{
+    background: rgb(55, 104, 112);
+    height: 50px;
+    width: 1349px;
+    margin-left: -300px;
+    margin-top: -50px;
+}
+.f{
+    font-size: 1cm;
+    margin-left: 700px;
+    margin-top: -450px;
+}
+button{
+    width: 150px;
+    height: 48px;
+    border: none;
+    border-radius: 25px;
+    background: turquoise;
+    font-size: 0.5cm;
+}
+button:hover{
+    color: aliceblue;
+    background: red;
+    cursor: pointer;
+}
+.s button{
+    margin-top: 20px;
+}
